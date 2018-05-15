@@ -1,6 +1,6 @@
 #lang info
 (define collection "rutils")
-(define deps '("base" "while-loop"))
+(define deps '("base" "while-loop threading"))
 (define can-be-loaded-with 'all)
 (define categories '(devtools))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
