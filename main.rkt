@@ -4,7 +4,9 @@
 
 (provide for/line progress)
 
-(require dyoo-while-loop)
+(require dyoo-while-loop
+         threading
+         racket/string)
 
 (define-syntax-rule (for/line index nameofline afile body ...)
   (let ((fobj (open-input-file afile))
